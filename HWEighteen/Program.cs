@@ -20,6 +20,8 @@ namespace HWEighteen
             DownloadVideo downloadVideo = new DownloadVideo(client, receiver);
             command.SetCommand(downloadVideo);
             command.Run();
+
+            Console.ReadKey();
         }
     }
 }
